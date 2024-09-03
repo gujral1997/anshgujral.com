@@ -3,6 +3,14 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "./page.module.scss";
+import { Metadata } from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+	return {
+	  title: 'Ansh Gujral',
+	  description: 'Coming Soon...'
+	}
+  }
 
 export default function RetroComingSoon() {
   const [text, setText] = useState("");
