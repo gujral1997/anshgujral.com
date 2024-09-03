@@ -1,0 +1,73 @@
+.container {
+	min-height: 100%;
+	background-color: black;
+	color: #22c55e;
+	font-family: 'Courier New', monospace;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+  }
+  
+  .main {
+	width: 100%;
+	max-width: 28rem;
+  }
+  
+  .terminal {
+	border: 2px solid #22c55e;
+	padding: 1rem;
+	margin-bottom: 2rem;
+  }
+  
+  .pre {
+	white-space: pre-wrap;
+	overflow: hidden;
+  }
+  
+  .cursor {
+	animation: pulse 1s infinite;
+  }
+  
+  .title {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	text-align: center;
+  }
+  
+  .description {
+	font-size: 0.875rem;
+	margin-bottom: 2rem;
+	text-align: center;
+  }
+  
+  .links {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	font-size: 0.75rem;
+  }
+  
+  .links a {
+	color: #22c55e;
+	text-decoration: none;
+	
+	&:hover {
+	  color: #4ade80;
+	}
+  }
+  
+  @keyframes pulse {
+	0% {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+  

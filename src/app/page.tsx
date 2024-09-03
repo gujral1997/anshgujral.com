@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Metadata } from "next";
 import Home from "@/components/home/home";
 
