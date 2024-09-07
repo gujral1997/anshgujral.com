@@ -64,6 +64,7 @@ const Home: FC = () => {
             [TWITTER]
           </Link>
           <Link href="mailto:anshgujral1997@gmail.com">[EMAIL]</Link>
+          <Link href="https://www.blogologer.com">[BLOGLOGER]</Link>
         </div>
       </main>
     </div>
